@@ -1,0 +1,21 @@
+ body{
+    background-color: white
+ }
+
+.texto1{
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 36;
+    text-align: left;
+}
+
+.contato1{
+    margin-top: 50px;
+    font-size: 50;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.col{
+    margin-top: 50px;
+}

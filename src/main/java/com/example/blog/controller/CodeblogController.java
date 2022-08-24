@@ -38,6 +38,14 @@ public class CodeblogController {
 		mv.addObject("post", post);
 		return mv;
 	}
+	@RequestMapping(value="", method = RequestMethod.GET)
+	public String getHome() {
+		return "index";
+	}
+	@RequestMapping(value="index", method = RequestMethod.GET)
+	public String ReturnHome() {
+		return "index";
+	}
 	
 	@RequestMapping(value="/newpost", method = RequestMethod.GET)
 	public String getPostForm() {
